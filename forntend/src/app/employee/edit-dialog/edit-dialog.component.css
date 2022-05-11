@@ -1,0 +1,57 @@
+.employee {
+  padding: 2rem;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+input{
+  border: 2px solid red;
+   width: 100%;
+  border-radius: 0;
+  height: 2rem;
+}
+.loading {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #plateTab {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+
+  #plateTab {
+    width: 75%;
+  }
+}
+
+.centerText {
+  text-align: center;
+}

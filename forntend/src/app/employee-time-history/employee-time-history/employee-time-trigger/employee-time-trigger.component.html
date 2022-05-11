@@ -1,0 +1,149 @@
+
+<select [(ngModel)]="selected" name="status" placeholder="select" (ngModelChange)="onOptionsSelected()">
+        <option *ngFor="let sta of dataSource.data" [ngValue]="sta">{{sta.plate}}</option>
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <table matSort matSortDisableClear mat-table #plateTable fxFlex="100%" fxFlex.gt-sm="66%" [dataSource]="dataSource"
+      class="mat-elevation-z1">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell mat-sort-header *matHeaderCellDef>İsim - Soyisim</th>
+        <td mat-cell *matCellDef="let product">
+         <img src="{{product.name }}" alt="">
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="plate">
+        <th mat-header-cell mat-sort-header *matHeaderCellDef>QR</th>
+        <td mat-cell *matCellDef="let product"> {{product.plate}}</td>
+      </ng-container>
+      <ng-container matColumnDef="date">
+        <th mat-header-cell mat-sort-header *matHeaderCellDef>Date</th>
+        <td mat-cell *matCellDef="let product"> {{product.date}}</td>
+      </ng-container>
+      <ng-container matColumnDef="edit">
+        <th mat-header-cell *matHeaderCellDef>Düzenle
+        </th>
+        <td mat-cell *matCellDef="let product">
+          <button mat-icon-button (click)="editEmployee(product)">
+            <mat-icon>edit</mat-icon>
+          </button>
+        </td>
+
+      </ng-container>
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef>Sil</th>
+        <td mat-cell *matCellDef="let product">
+          <button mat-icon-button (click)="deleteEmployee(product)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+ -->

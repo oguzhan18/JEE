@@ -1,0 +1,18 @@
+<div>
+    <h3>Düzenle</h3>
+
+
+     <span>QR</span><br>
+    <input type="url" name="palate"[ngModel]="data.plate" (ngModelChange)="data.plate= $event" >
+    <br>
+    <span>İsim-Soyisim</span>
+    <input type="text" name="name"[ngModel]="data.name" (ngModelChange)="data.name= $event" >
+    <br>
+    <span>Zaman</span>
+    <input type="date" name="date"[ngModel]="data.date" (ngModelChange)="data.date= $event" >
+  <!-- <textarea name="" id="" cols="20" rows="2" ></textarea>  -->
+
+  <button mat-flat-button color="warn" (click)="editEmployee()">Düzenle</button>
+  <button mat-flat-button color="warn" (click)="cancelEdit()">İptal</button>
+
+</div>

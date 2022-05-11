@@ -1,0 +1,10 @@
+<mat-toolbar color="warn" class="expanded-toolbar">
+  <!-- Top toolbar -->
+  <button mat-button routerLink="/">{{title}}</button>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+    <button mat-button routerLink="/employee">Personel Kayıt</button>
+    <button mat-button routerLink="/employee-history-time">Personel Giriş </button>
+  </div>
+
+</mat-toolbar>
+<router-outlet></router-outlet>
